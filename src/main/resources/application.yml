@@ -1,2 +1,11 @@
-{
-    }
+server:
+  error:
+    include-binding-errors: always
+    include-message: always
+  port:
+spring:
+  data:
+    mongodb:
+      database: movie_api_db
+      uri: mongodb+srv://markmuhari:4OQEXZoMcw1rtVbd@cluster0.ieqmde7.mongodb.net/test
+
